@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signin.css">
+    <title>Favicon</title>
+    <link href="game-logo.png" rel="icon">
+</head>
+<body>
+    <div class="form-container">
+        <form method="post" class="form-link">
+            <div class="login-page">
+
+                <label for="name">FIRST NAME:</label>
+                <input id="name" type="text" placeholder="first_name" required>
+
+                <label for="last">LAST NAME:</label>
+                <input id="last" type="text" placeholder="last_name" required>
+
+                <label>Gender:</label>
+                <div class="gender-row">
+                    <label for="male">Male</label>
+                    <input id="male" type="radio" name="gender">
+
+                    <label for="female">Female</label>
+                    <input id="female" type="radio" name="gender">
+
+                    <label for="others">Others</label>
+                    <input id="others" type="radio" name="gender">
+                </div>
+
+                <label for="email">Email:</label>
+                <input id="email" type="email" placeholder="abc....@gmail.com" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input id="dob" type="date" required>
+
+                <input type="radio" id="terms-condition" required>
+                <a id="privacy">I agree all Terms and Condition</a>
+
+                <a href="http://127.0.0.1:3000/index.html?serverWindowId=546fd1ae-4267-4d2c-bfa3-a3f353202d69"><button id="sign-in" type="button">Sign-In</button></a>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
