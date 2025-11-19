@@ -35,22 +35,10 @@ body{
 .nav-links a:hover {
   color: white;
 }
-#signin{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  transition: color 0.3s;
-  
-}
-#download{
-  font-weight: 500;
-  font-size: 18px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transition: color 0.3s;
-}
+
 #interface{
   width: 100%;
-  height: fit-content;
+  object-fit: contain;
   background-color: black;
   
 }
@@ -119,7 +107,7 @@ body{
   transform: scale(1.05);
 }
 footer {
-  background: linear-gradient(to bottom, #3a3a3a, #000000); 
+  background: rgb(42, 43, 41);
   text-align: center;
   padding: 60px 0;
   color: white;
