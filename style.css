@@ -2,38 +2,42 @@ body{
     margin: 0 auto;
     background-color: black;
 }
-#logo{
-    width: 150px;
-    height: 150px;
-    object-fit: contain; 
-}
-.heading{
-    background-color: black;
-    padding: 10px 40px;
+#logo {
     height: 60px;
+    width: auto;
+    object-fit: contain;
 }
-.nav-container{
+
+.heading {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    display: flex;
-    position: relative;
-    bottom: 75%;
-
+    width: 100%;
 }
-.nav-links{
+
+.nav-links {
     display: flex;
     gap: 30px;
 }
+
 .nav-links a {
-  color: grey;
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  transition: color 0.3s;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    transition: color 0.3s;
 }
+
 .nav-links a:hover {
-  color: white;
+    color: white;
 }
 
 #interface{
