@@ -190,6 +190,14 @@ footer a {
     color: #ccc;
     margin: 0 8px;
 }
+.toggle-btn {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-btn:hover {
+    transform: scale(1.05);
+}
 
 /* ---------- Light Mode Styles ---------- */
 body.light {
