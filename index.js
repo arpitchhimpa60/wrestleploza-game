@@ -1,14 +1,12 @@
-// Grab the toggle button
-const toggleBtn = document.getElementById("theme-toggle");
+const toggleBtn = document.getElementById('theme-toggle');
 
-// On click, toggle dark/light mode
-toggleBtn.onclick = () => {
-    document.body.classList.toggle("light");
-
-    // Update button text
-    if (document.body.classList.contains("light")) {
-        toggleBtn.textContent = "🌞 Light Mode";
-    } else {
+toggleBtn.addEventListener('click', function() {
+    if (document.body.className === "light") {
+        document.body.className = "";
         toggleBtn.textContent = "🌙 Dark Mode";
+    } 
+    else {
+        document.body.className = "light";
+        toggleBtn.textContent = "☀️ Light Mode";
     }
-};
+})
