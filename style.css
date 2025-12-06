@@ -16,7 +16,13 @@ body {
     display: flex;
     align-items: center;
 }
-
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: black;
+  z-index: 2;
+}
 .nav-container {
     display: flex;
     align-items: center;
