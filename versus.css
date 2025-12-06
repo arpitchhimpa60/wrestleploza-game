@@ -85,3 +85,68 @@ p {
     transform: scale(1.03);
     box-shadow: 0 0 20px rgba(255, 200, 50, 0.3);
 }
+
+
+/* -------- PREMIUM LIGHT MODE -------- */
+
+body.light {
+    background-color: #e6e6e6;
+    color: #222;
+}
+
+
+body.light .heading {
+    background: linear-gradient(to right, #ffffff, #f0f0f0);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+body.light .nav-links a {
+    color: #222;
+}
+
+body.light .nav-links a:hover {
+    color: #000;
+}
+
+body.light main {
+    background: #ebebeb;  
+    color: #222;
+}
+
+
+body.light .feature-box {
+    background: #ffffff;
+    border: 1px solid #c8c8c8;
+    border-radius: 12px;
+    box-shadow: 
+        0px 4px 12px rgba(0,0,0,0.10),
+        0px 2px 4px rgba(0,0,0,0.05);
+    transition: 0.2s ease;
+}
+
+body.light .feature-box:hover {
+    transform: scale(1.02);
+    box-shadow: 
+        0 6px 20px rgba(0,0,0,0.20),
+        0 3px 8px rgba(0,0,0,0.15);
+}
+
+body.light .feature-box h2 {
+    color: #a40000; 
+    font-weight: 700;
+}
+
+
+body.light p {
+    color: #333;
+}
+
+
+body.light .feature-box img {
+    border: 2px solid #d3d3d3;
+    box-shadow: 0px 0px 12px rgba(80, 80, 80, 0.18);
+}
+
+body.light .feature-box img:hover {
+    box-shadow: 0px 0px 18px rgba(60, 60, 60, 0.25);
+}
