@@ -48,13 +48,13 @@ header {
     color: white;
 }
 
-#interface{
-  width: 100%;
-  object-fit: contain;
-  background-color: black;
-  
+#interface {
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
-
 
 .feature-nav {
   display: flex;
@@ -243,3 +243,138 @@ body.light .copyright {
 }
 
 
+/* Tablet/iPad Air ke liye */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  
+  .heading {
+    padding: 10px 25px;
+  }
+
+ 
+  #logo {
+    height: 50px;
+  }
+
+
+  .nav-links {
+    gap: 20px;
+    font-size: 16px;
+  }
+  
+ 
+  .nav-links a {
+    padding: 6px 10px;
+  }
+  
+
+  #interface {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 30px auto;
+    display: block;
+  }
+
+
+  .featured-collections {
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+  
+
+  .card {
+    width: 280px;
+    margin-bottom: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+  .featured-wrapper h1 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+
+ 
+  footer {
+    padding: 50px 25px;
+  }
+  
+
+  footer img {
+    width: 160px;
+    margin: 10px 12px;
+  }
+  
+  
+  .footer-links {
+    font-size: large;
+  }
+  
+
+  footer .copyright {
+    font-size: medium;
+  }
+
+
+  footer button {
+    font-size: 15px;
+    padding: 9px 22px;
+  }
+  #interface {
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+}
+
+
+/* for samsung galaxy s20 ultra ke liye*/
+
+
+@media screen and (max-width: 500px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;  
+    }
+
+  
+    main {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+  
+    #interface {
+        width: 100%;  
+        height: auto;
+        object-fit: cover;
+        display: block;
+        margin: 0;       
+        padding: 0;
+        border: none;
+    }
+
+   
+    .heading {
+        padding: 8px 12px;
+    }
+
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+        padding: 4px 2px;
+    }
+}
