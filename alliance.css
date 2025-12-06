@@ -168,3 +168,61 @@ main {
   text-decoration: none;
   font-weight: bold;
 }
+
+
+
+/* ---------- LIGHT MODE THEME ---------- */
+body.light {
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+
+body.light .heading {
+    background-color: white;
+}
+body.light .nav-links a {
+    color: #333;
+}
+body.light .nav-links a:hover {
+    color: black;
+}
+
+
+body.light #background-img {
+    opacity: 0.08;
+}
+
+
+body.light .white-background {
+    background: rgba(255, 255, 255, 0.98);
+}
+
+
+body.light .white-background h2 {
+    color: #b30000;
+}
+body.light .white-background h3 {
+    color: #a05a00;
+}
+body.light .white-background h4 {
+    color: #a05a00;
+}
+
+
+body.light p,
+body.light dd,
+body.light dt {
+    color: #222;
+}
+
+body.light .align-things p {
+    color: darkgreen;
+}
+
+body.light .footer-links a {
+    color: #333;
+}
+body.light .footer-links a:hover {
+    color: purple;
+}
