@@ -156,3 +156,101 @@ body.light .feature-box img {
 body.light .feature-box img:hover {
     box-shadow: 0px 0px 18px rgba(60, 60, 60, 0.25);
 }
+
+
+/* ---------------------------
+   RESPONSIVE FOR iPad Air / Tablets
+   Width: 820px and below
+--------------------------- */
+@media (max-width: 900px) {
+
+    /* NAVBAR */
+    .heading {
+        padding: 10px 20px;
+    }
+
+    #logo {
+        height: 50px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        gap: 18px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+    }
+
+    /* MAIN CONTENT */
+    .section {
+        padding: 18px;
+        max-width: 95%;
+    }
+
+    .feature-box {
+        padding: 18px;
+        margin-bottom: 35px;
+    }
+
+    .feature-box img {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .feature-box h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+
+/* ---------------------------
+   MOBILE RESPONSIVE
+   Width: 480px and below
+--------------------------- */
+@media (max-width: 480px) {
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .nav-links a {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .feature-box {
+        padding: 15px;
+    }
+
+    .feature-box h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
