@@ -243,7 +243,8 @@ body.light .copyright {
 }
 
 
-/* Tablet/iPad Air ke liye */
+/* iPad Air ke liye */
+
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   
   .heading {
@@ -336,45 +337,116 @@ body.light .copyright {
 
 /* for samsung galaxy s20 ultra ke liye*/
 
-
 @media screen and (max-width: 500px) {
 
-    html, body {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        overflow-x: hidden;  
-    }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+  .heading {
+    padding: 10px 15px;
+  }
+
+  #logo {
+    height: 40px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    padding: 4px 6px;
+  }
+
+  #theme-toggle {
+    font-size: 12px;
+    padding: 4px 6px;
+  }
 
   
-    main {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-    }
+  #interface {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+  }
 
-  
-    #interface {
-        width: 100%;  
-        height: auto;
-        object-fit: cover;
-        display: block;
-        margin: 0;       
-        padding: 0;
-        border: none;
-    }
 
-   
-    .heading {
-        padding: 8px 12px;
-    }
+  .featured-wrapper {
+    text-align: center;
+    padding: 20px 0;
+  }
 
-    .nav-links {
-        gap: 10px;
-    }
+  .featured-wrapper h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
 
-    .nav-links a {
-        font-size: 13px;
-        padding: 4px 2px;
-    }
+ 
+  .featured-collections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+    text-align: center;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .card p {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+
+ 
+  footer {
+    padding: 40px 15px;
+    text-align: center;
+  }
+
+  footer h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  footer img {
+    width: 140px;
+    margin: 10px 8px;
+  }
+
+  .footer-links {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  footer .copyright {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+
+  footer button {
+    font-size: 14px;
+    padding: 8px 18px;
+  }
 }
+
