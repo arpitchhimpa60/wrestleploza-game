@@ -14,13 +14,7 @@ body{
     display: flex;
     align-items: center;
 }
-header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  background: black;
-  z-index: 2;
-}
+
 .nav-container {
     display: flex;
     align-items: center;
@@ -184,7 +178,7 @@ footer .copyright {
   font-weight: bolder;
 }
 
-/* ------- new things addded 😀.  */
+
 .toggle-btn {
     cursor: pointer;
     transition: 0.3s;
@@ -233,4 +227,188 @@ body.light .copyright {
 }
 body.light h1{
   color: red;
+}
+
+
+/* samsung s20 ke liye resposive banaya hai */
+@media screen and (max-width: 500px) {
+
+ 
+  body {
+    overflow-x: hidden;
+  }
+
+
+  .heading {
+    padding: 10px 15px;
+  }
+
+  #logo {
+    height: 40px;
+  }
+
+  .nav-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  #theme-toggle {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+
+  #starting {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+
+  h1 {
+    font-size: 22px;
+    padding: 10px;
+  }
+
+
+  .featured-superstars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 330px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .card p {
+    font-size: 18px;
+    margin-top: 6px;
+  }
+
+  
+  footer {
+    padding: 40px 10px;
+  }
+
+  footer button {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  footer h2 {
+    font-size: 28px;
+  }
+
+  footer img {
+    width: 130px;
+    margin: 10px 8px;
+  }
+
+  .footer-links {
+    font-size: 16px;
+  }
+
+  footer .copyright {
+    font-size: 12px;
+  }
+}
+
+
+/* ------------   ipad air resposive ke liye ----------------------*/
+@media screen and (max-width: 900px) {
+
+
+  .heading {
+    padding: 10px 20px;
+  }
+
+  #logo {
+    height: 50px;
+  }
+
+  .nav-links {
+    gap: 15px;
+  }
+
+  .nav-links a {
+    font-size: 15px;
+  }
+
+  #theme-toggle {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+
+
+  #starting {
+    width: 100%;
+    height: auto;
+  }
+
+ 
+  h1 {
+    font-size: 26px;
+    padding: 10px;
+  }
+
+ 
+  .featured-superstars {
+    gap: 20px;
+    max-width: 90%;
+  }
+
+  .card {
+    width: 220px;
+  }
+
+  .card img {
+    height: 240px;
+  }
+
+  .card p {
+    font-size: 17px;
+  }
+
+
+  footer {
+    padding: 40px 0;
+  }
+
+  footer h2 {
+    font-size: 32px;
+  }
+
+  footer img {
+    width: 150px;
+  }
+
+  .footer-links {
+    font-size: 20px;
+  }
+
+  footer .copyright {
+    font-size: 14px;
+  }
 }
