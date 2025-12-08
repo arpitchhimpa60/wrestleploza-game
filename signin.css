@@ -113,3 +113,132 @@ button:hover {
     background-color: #2f75ff;
     box-shadow: 0 0 20px rgba(0, 120, 255, 0.7);
 }
+
+/* ------ ipad Air ke liye -------- */
+@media (max-width: 900px) {
+    
+    .form-container {
+        padding: 20px;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .login-page {
+        width: 90%;
+        padding: 25px;
+        border-radius: 15px;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="date"] {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+    
+    label {
+        font-size: 16px;
+    }
+    
+    .gender-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    
+    button {
+        font-size: 18px;
+        padding: 14px;
+    }
+    
+    #privacy {
+        font-size: 13px;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+}
+/* ------ samsung s20 ultra ke liye -------- */
+@media (max-width: 600px) {
+
+ 
+    .background img {
+        display: none !important;
+    }
+
+    body {
+        background: #0f0f0f;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .form-container {
+        width: 90%;
+        padding: 0;
+        margin: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;  
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .login-page {
+        width: 92%;
+        max-width: 380px;
+        padding: 20px;
+        border-radius: 12px;
+        background: rgba(20,20,20,0.95);
+        box-shadow: 0 0 18px rgba(0,0,0,0.6);
+        height: auto;       
+    }
+
+    label {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"] {
+        width: 90%;
+        padding: 10px 12px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .gender-row {
+        display: flex;
+        justify-content: space-between;
+        margin: 8px 0 15px 0;
+    }
+
+    .gender-row label {
+        font-size: 13px;
+        margin-right: 5px;
+        top: 0;
+    }
+
+    input[type=radio] {
+        transform: scale(0.9);
+    }
+
+    #privacy {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    #errorBox {
+        font-size: 13px;
+        padding-bottom: 5px;
+    }
+}
