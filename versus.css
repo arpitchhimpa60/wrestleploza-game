@@ -158,10 +158,7 @@ body.light .feature-box img:hover {
 }
 
 
-/* ---------------------------
-   RESPONSIVE FOR iPad Air / Tablets
-   Width: 820px and below
---------------------------- */
+/* ------ ipad Air ke liye -------- */
 @media (max-width: 900px) {
 
     /* NAVBAR */
@@ -190,7 +187,7 @@ body.light .feature-box img:hover {
         font-size: 16px;
     }
 
-    /* MAIN CONTENT */
+
     .section {
         padding: 18px;
         max-width: 95%;
@@ -219,38 +216,90 @@ body.light .feature-box img:hover {
 }
 
 
-/* ---------------------------
-   MOBILE RESPONSIVE
-   Width: 480px and below
---------------------------- */
-@media (max-width: 480px) {
 
-    .nav-container {
-        flex-direction: column;
+/* ------ samsung s20 ultra ke liye -------- */
+@media (max-width: 600px) {
+
+    .background img {
+        display: none !important;
     }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 14px;
+    body {
+        background: #0f0f0f;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 
-    .nav-links a {
-        font-size: 15px;
+    .form-container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;  
+        min-height: 100vh; 
+        height: auto;  
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
-    h1 {
-        font-size: 22px;
+    .login-page {
+        width: 92%;
+        max-width: 380px;
+        padding: 20px;
+        border-radius: 12px;
+        background: rgba(20,20,20,0.95);
+        box-shadow: 0 0 18px rgba(0,0,0,0.6);
+
+       
+        height: auto;       
     }
 
-    .feature-box {
-        padding: 15px;
+
+    label {
+        font-size: 14px;
+        margin-top: 10px;
     }
 
-    .feature-box h2 {
-        font-size: 18px;
+    input[type="text"],
+    input[type="email"],
+    input[type="date"] {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 14px;
+        margin-top: 5px;
     }
 
-    p {
-        font-size: 15px;
+    .gender-row {
+        display: flex;
+        justify-content: space-between;
+        margin: 8px 0 15px 0;
+    }
+
+    .gender-row label {
+        font-size: 13px;
+        margin-right: 5px;
+        top: 0;
+    }
+
+    input[type=radio] {
+        transform: scale(0.9);
+    }
+
+    #privacy {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 12px;
+        font-size: 16px;
+        margin-top: 18px;
+    }
+
+    #errorBox {
+        font-size: 13px;
+        padding-bottom: 5px;
     }
 }
+
