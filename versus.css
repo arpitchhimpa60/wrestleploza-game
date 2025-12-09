@@ -93,7 +93,7 @@ p {
 }
 
 
-/* -------- PREMIUM LIGHT MODE -------- */
+/* -------- light theme ke liye -------- */
 
 body.light {
     background-color: #e6e6e6;
@@ -102,8 +102,8 @@ body.light {
 
 
 body.light .heading {
-    background: linear-gradient(to right, #ffffff, #f0f0f0);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0);
 }
 
 body.light .nav-links a {
@@ -124,17 +124,13 @@ body.light .feature-box {
     background: #ffffff;
     border: 1px solid #c8c8c8;
     border-radius: 12px;
-    box-shadow: 
-        0px 4px 12px rgba(0,0,0,0.10),
-        0px 2px 4px rgba(0,0,0,0.05);
-    transition: 0.2s ease;
+    box-shadow: 0px 4px 12px black,
 }
 
 body.light .feature-box:hover {
     transform: scale(1.02);
-    box-shadow: 
-        0 6px 20px rgba(0,0,0,0.20),
-        0 3px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 20px black,
+
 }
 
 body.light .feature-box h2 {
@@ -150,16 +146,16 @@ body.light p {
 
 body.light .feature-box img {
     border: 2px solid #d3d3d3;
-    box-shadow: 0px 0px 12px rgba(80, 80, 80, 0.18);
+    box-shadow: 0px 0px 12px rgba(80, 80, 80);
 }
 
 body.light .feature-box img:hover {
-    box-shadow: 0px 0px 18px rgba(60, 60, 60, 0.25);
+    box-shadow: 0px 0px 18px rgba(60, 60, 60);
 }
 
 
 /* ------ ipad Air ke liye -------- */
-@media (max-width: 900px) {
+@media (max-width: 1240px) {
 
     /* NAVBAR */
     .heading {
@@ -217,89 +213,4 @@ body.light .feature-box img:hover {
 
 
 
-/* ------ samsung s20 ultra ke liye -------- */
-@media (max-width: 600px) {
-
-    .background img {
-        display: none !important;
-    }
-
-    body {
-        background: #0f0f0f;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-
-    .form-container {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;  
-        min-height: 100vh; 
-        height: auto;  
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
-    .login-page {
-        width: 92%;
-        max-width: 380px;
-        padding: 20px;
-        border-radius: 12px;
-        background: rgba(20,20,20,0.95);
-        box-shadow: 0 0 18px rgba(0,0,0,0.6);
-
-       
-        height: auto;       
-    }
-
-
-    label {
-        font-size: 14px;
-        margin-top: 10px;
-    }
-
-    input[type="text"],
-    input[type="email"],
-    input[type="date"] {
-        width: 100%;
-        padding: 10px 12px;
-        font-size: 14px;
-        margin-top: 5px;
-    }
-
-    .gender-row {
-        display: flex;
-        justify-content: space-between;
-        margin: 8px 0 15px 0;
-    }
-
-    .gender-row label {
-        font-size: 13px;
-        margin-right: 5px;
-        top: 0;
-    }
-
-    input[type=radio] {
-        transform: scale(0.9);
-    }
-
-    #privacy {
-        font-size: 12px;
-    }
-
-    button {
-        padding: 12px;
-        font-size: 16px;
-        margin-top: 18px;
-    }
-
-    #errorBox {
-        font-size: 13px;
-        padding-bottom: 5px;
-    }
-}
 

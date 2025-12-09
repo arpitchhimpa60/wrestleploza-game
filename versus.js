@@ -2,7 +2,7 @@ const toggleBtn = document.getElementById('theme-toggle');
 
 toggleBtn.addEventListener('click', function() {
     if (document.body.className === "light") {
-        document.body.className = "";
+        document.body.className = "dark";
         toggleBtn.textContent = "🌙 Dark Mode";
     } 
     else {

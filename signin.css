@@ -115,7 +115,7 @@ button:hover {
 }
 
 /* ------ ipad Air ke liye -------- */
-@media (max-width: 900px) {
+@media (max-width: 1240px) {
     
     .form-container {
         padding: 20px;
@@ -161,13 +161,14 @@ button:hover {
     }
     
 }
+
 /* ------ samsung s20 ultra ke liye -------- */
 
 @media (max-width: 600px) {
 
  
     .background img {
-        display: none !important;
+        display: none;
     }
 
     body {
@@ -222,10 +223,6 @@ button:hover {
         font-size: 13px;
         margin-right: 5px;
         top: 0;
-    }
-
-    input[type=radio] {
-        transform: scale(0.9);
     }
 
     #privacy {
