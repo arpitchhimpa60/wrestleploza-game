@@ -209,7 +209,7 @@ body.light .heading {
 }
 
 body.light .card {
-    background: rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255);
 }
 
 body.light .card p {
@@ -238,12 +238,6 @@ body.light h1{
 
 /* samsung s20 ke liye resposive banaya hai */
 @media screen and (max-width: 500px) {
-
- 
-  body {
-    overflow-x: hidden;
-  }
-
 
   .heading {
     padding: 10px 15px;
@@ -343,7 +337,7 @@ body.light h1{
 
 
 /* ------------   ipad air resposive ke liye ----------------------*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
 
   .heading {

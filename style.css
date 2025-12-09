@@ -206,6 +206,7 @@ footer a {
 }
 
 /* ---------- Light Mode Styles ---------- */
+
 body.light {
     background-color: #f5f5f5;
     color: #222;
@@ -220,7 +221,7 @@ body.light .heading {
 }
 
 body.light .card {
-    background: rgba(255, 255, 255,0);
+    background: rgba(255, 255, 255);
 }
 
 body.light .card p {
@@ -244,7 +245,6 @@ body.light .copyright {
 
 
 /* iPad Air ke liye */
-
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   
   .heading {
@@ -343,7 +343,6 @@ body.light .copyright {
   html, body {
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
   }
 
 
